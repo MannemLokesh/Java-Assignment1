@@ -2,12 +2,12 @@ public class Program1
 {
 	public static void main(String[] args)
 	{
-		int n=9;
-		for(int i=0;i<n;i++)
+		int num=9;
+		for(int i=0;i<num;i++)
 		{
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if(i==0||i==(n-1)||j==(n/2))
+				if(i==0||i==(num-1)||j==(num/2))
 				{
 					System.out.print("* ");
 				}
@@ -17,9 +17,9 @@ public class Program1
 				}
 			}
 			System.out.print(" ");
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if(j==0||j==(n-1)||i==j)
+				if(j==0||j==(num-1)||i==j)
 				{
 					System.out.print("* ");
 				}
@@ -29,9 +29,9 @@ public class Program1
 				}
 			}
 			System.out.print(" ");
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if(i==0||j==0||i==(n-1)||i==(n/2))
+				if(i==0||j==0||i==(num-1)||i==(num/2))
 				{
 					System.out.print("* ");
 				}
@@ -41,9 +41,9 @@ public class Program1
 				}
 			}
 			System.out.print(" ");
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if((j==0 && i!=n-1)||(j==n-1 && i!=n-1) || (i==n-1 && j!=0 && j!=n-1))
+				if((j==0 && i!=num-1)||(j==num-1 && i!=num-1) || (i==num-1 && j!=0 && j!=num-1))
 				{
 					System.out.print("* ");
 				}
@@ -53,10 +53,10 @@ public class Program1
 				}
 			}
 			System.out.print(" ");
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if(j==0|| (i==0 && j!=n-1) || (i==n/2 && j!=n-1) ||(i==j && i>=(n/2))
-						|| (i>0 && i<n/2 && j==n-1))
+				if(j==0|| (i==0 && j!=num-1) || (i==num/2 && j!=num-1) ||(i==j && i>=(num/2))
+						|| (i>0 && i<num/2 && j==num-1))
 				{
 					System.out.print("* ");
 				}
@@ -66,10 +66,10 @@ public class Program1
 				}
 			}
 			System.out.print(" ");
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if((i==0 && j!=0 && j!=n-1) || (j==0 && i!=0 && i!=n-1)||
-						(j==n-1 && i!=0 && i!=n-1) || (i==n-1 && j!=0 && j!=n-1))
+				if((i==0 && j!=0 && j!=num-1) || (j==0 && i!=0 && i!=num-1)||
+						(j==num-1 && i!=0 && i!=num-1) || (i==num-1 && j!=0 && j!=num-1))
 				{
 					System.out.print("* ");
 				}
@@ -79,9 +79,9 @@ public class Program1
 				}
 			}
 			System.out.print(" ");
-			for(int j=0;j<n;j++)
+			for(int j=0;j<num;j++)
 			{
-				if(j==0 || j==n-1 || i==j)
+				if(j==0 || j==num-1 || i==j)
 				{
 					System.out.print("* ");
 				}
